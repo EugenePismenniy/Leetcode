@@ -30,8 +30,9 @@ public class TowSumSolutionTest {
 	public Object[] provideTestData() {
 		return new Object[]{
 				new Object[]{new int[]{}, 0, new int[]{}},
-				new Object[]{new int[]{4,7,3,5,7,8}, 14, new int[]{1, 4}},
-				new Object[]{new int[]{-1,-2,-3,-4,-5}, -8, new int[]{2,4}}
+				new Object[]{new int[]{4,7,3,5,7,8}, 10, new int[]{1, 2}},
+				new Object[]{new int[]{-1,-2,-3,-4,-5}, -8, new int[]{2,4}},
+				new Object[]{new int[]{2, 7, 11, 15}, 9, new int[]{0,1}}
 		};
 	}
 
