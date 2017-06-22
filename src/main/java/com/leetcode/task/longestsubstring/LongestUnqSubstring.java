@@ -31,19 +31,18 @@ public class LongestUnqSubstring {
 
 			if(map[k] < v) {
 				currLen ++;
+				map[k] = v;
 			} else {
+				i = v - 1;
 				v ++;
-				currLen = 1;
+				currLen = 0;
 			}
-			map[k] = v;
+
 
 			if (currLen > maxLen) {
 				maxLen = currLen;
 			}
 		}
-
-
-
 
 		return maxLen;
 	}
