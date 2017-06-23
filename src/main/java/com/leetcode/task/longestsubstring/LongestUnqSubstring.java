@@ -9,6 +9,45 @@ public class LongestUnqSubstring {
 
 	public int lengthOfLongestSubstring(String s) {
 
+		int length = s.length();
+
+		if (length <= 1) {
+			return length;
+		}
+
+		short[] map = new short[Short.MAX_VALUE];
+
+		short maxLen = 1;
+
+		short currLen = 0;
+		short startSubstring = 0;
+
+		for (int i = 0; i < length; i ++) {
+
+			char ch = s.charAt(i);
+
+			short j = (short) (map[ch] - 1);
+
+			if(j < 0 || j < startSubstring) {
+				currLen ++;
+			} else {
+				currLen = (short) (i - j);
+				startSubstring = (short) (j + 1);
+			}
+
+			map[ch] = (short)(i + 1);
+
+			if (currLen > maxLen) {
+				maxLen = currLen;
+			}
+		}
+
+		return maxLen;
+	}
+
+
+	public int lengthOfLongestSubstring0(String s) {
+
 		if (s.length() == 1) {
 			return 1;
 		}

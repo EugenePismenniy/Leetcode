@@ -34,6 +34,8 @@ public class LongestUnqSubstringTest {
 			new Object[] {"", 0},
 			new Object[] {"au", 2},
 			new Object[] {"dvdf", 3},
+			new Object[] {"tmmzuxt", 5},
+			new Object[] {"bbtablud", 6},
 		};
 	}
 
