@@ -1,3 +1,7 @@
 # My solutions of the some tasks from the [leetcode.com](https://leetcode.com/problems)
 
 * [two-sum](https://leetcode.com/problems/two-sum), [solution](src/main/java/com/leetcode/task/twosum/TowSumSolution.java), [test](src/test/java/com/leetcode/task/twosum/TowSumSolutionTest.java);
+* [reverse-integer](https://leetcode.com/problems/reverse-integer), [solution](src/main/java/com/leetcode/task/reverseint/ReverseInteger.java), [test](src/test/java/com/leetcode/task/reverseint/ReverseIntegerTest.java);
+* [palindrome-number](https://leetcode.com/problems/palindrome-number), [solution](src/main/java/com/leetcode/task/palindromenum/PalindromeNumber.java), [test](src/test/java/com/leetcode/task/palindromenum/PalindromeNumberTest.java);  
+* [longest-substring-without-repeating-characters](https://leetcode.com/problems/longest-substring-without-repeating-characters), [solution](src/main/java/com/leetcode/task/longestsubstring/LongestUnqSubstring.java), [test](src/test/java/com/leetcode/task/longestsubstring/LongestUnqSubstringTest.java); 
+* [island-perimeter](https://leetcode.com/problems/island-perimeter), [solution](src/main/java/com/leetcode/task/island/IslandPerimeter.java), [test](src/test/java/com/leetcode/task/island/IslandPerimeterTest.java);
